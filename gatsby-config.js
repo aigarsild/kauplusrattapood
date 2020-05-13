@@ -1,10 +1,12 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://kauplusrattapood.ee/`,
     title: `Kauplus rattapood`,
     description: `Kauplus rattapood pakub jalgratta hooldus ja parandustöid, ehitame ka ise rattaid müügiks`,
     author: `@aigarsild`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
