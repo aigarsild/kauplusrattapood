@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import Layout from "../components/layout"
 
 
 class Success extends Component {
     render() {
         return (
+            <Layout>
             <section className="light-section d-flex align-content-center flex-wrap min-vh-100 row">
                 <div className="container">
                     <div className="row">
@@ -14,6 +16,7 @@ class Success extends Component {
                     </div>
                 </div>
             </section>
+            </Layout>
         );
     }
 }
