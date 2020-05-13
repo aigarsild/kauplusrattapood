@@ -11,6 +11,14 @@ class Home extends Component {
     return (
 <Layout>
     <section>
+    
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="telephone" />
+      <input type="text" name="origin" />
+      <textarea name="message"></textarea>
+    </form>
     <SEO title="Jalgratta hooldus ja parandus" />
                 <section className="row slider d-flex align-content-center flex-wrap min-vh-100">
                     <h1 className="display-4 text-center w-100 font-weight-bold mb-4">Mobiilne ratta hooldus ja parandus</h1>
