@@ -52,7 +52,7 @@ class pricesComponent extends Component {
                     </div>
                 }
 
-                <h1 className="display-4 text-center w-100 font-weight-bold mb-5">Hinnakiri</h1>
+                <h2 className="display-4 text-center w-100 font-weight-bold mb-5">Hinnakiri</h2>
                 <div className="row justify-content-center">
                     <div className="mb-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
                         <div className="card border-0 shadow">
