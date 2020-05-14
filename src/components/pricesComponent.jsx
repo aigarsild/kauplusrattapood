@@ -39,7 +39,7 @@ class pricesComponent extends Component {
                             <div className="modal-content border-0">
                                 <div className="modal-header">
                                     <h5 className="modal-title font-weight-bold">{this.state.subject}</h5>
-                                    <button onClick={this.handleClick.bind(this)} type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                    <button onClick={this.handleClick.bind(this)} onKeyDown={this.handleClick.bind(this)} type="button" className="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
@@ -70,7 +70,7 @@ class pricesComponent extends Component {
                                         <li className="mb-2">hind ei sisalda varuosi</li>
                                     </ul>
                                 </div>
-                                <p data-btn="Lihthooldus" onClick={this.handleClick.bind(this)} className="shadow btn btn-dark font-weight-bold pt-3 pb-3 pl-5 pr-5">Telli pakett</p>
+                                <p data-btn="Lihthooldus" onClick={this.handleClick.bind(this)} onKeyDown={this.handleClick.bind(this)} className="shadow btn btn-dark font-weight-bold pt-3 pb-3 pl-5 pr-5">Telli pakett</p>
                             </div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@ class pricesComponent extends Component {
                                         <li className="mb-2">hind ei sisalda varuosi</li>
                                     </ul>
                                 </div>
-                                <p data-btn="Täishooldus" onClick={this.handleClick.bind(this)} className="shadow btn btn-dark font-weight-bold pt-3 pb-3 pl-5 pr-5">Telli pakett</p>
+                                <p data-btn="Täishooldus" onClick={this.handleClick.bind(this)} onKeyDown={this.handleClick.bind(this)} className="shadow btn btn-dark font-weight-bold pt-3 pb-3 pl-5 pr-5">Telli pakett</p>
                             </div>
                         </div>
                     </div>
@@ -104,7 +104,7 @@ class pricesComponent extends Component {
                                         <li className="mb-2">Väiksemad tööd nagu sisekummi vahetus jms lisandub väljasõidu hind 10€</li>
                                     </ul>
                                 </div>
-                                <p data-btn="Ülejäänud tööd" onClick={this.handleClick.bind(this)} className="shadow btn btn-dark font-weight-bold pt-3 pb-3 pl-5 pr-5">Telli pakett</p>
+                                <p data-btn="Ülejäänud tööd" onClick={this.handleClick.bind(this)} onKeyDown={this.handleClick.bind(this)} className="shadow btn btn-dark font-weight-bold pt-3 pb-3 pl-5 pr-5">Telli pakett</p>
                             </div>
                         </div>
                     </div>
@@ -116,7 +116,7 @@ class pricesComponent extends Component {
                                 <div className="card-text font-weight-light">
                                     <span className="mb-2">Võite ka niisama kirjutada ja räägime selgeks või tuleme kohale ja vaatame üle</span>
                                 </div>
-                                <p data-btn="Ei tea mis rattal vaja teha?" onClick={this.handleClick.bind(this)} className="shadow btn btn-dark font-weight-bold pt-3 pb-3 pl-5 pr-5">Kirjuta meile</p>
+                                <p data-btn="Ei tea mis rattal vaja teha?" onClick={this.handleClick.bind(this)} onKeyDown={this.handleClick.bind(this)} className="shadow btn btn-dark font-weight-bold pt-3 pb-3 pl-5 pr-5">Kirjuta meile</p>
                             </div>
                         </div>
                     </div>

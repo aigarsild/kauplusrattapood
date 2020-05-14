@@ -29,6 +29,7 @@ class Header extends Component {
             </Link>
             <div
               onClick={this.handleClick.bind(this)}
+              onKeyDown={this.handleClick.bind(this)}
               className={this.state.showNav ? "active hamburger" : "hamburger"}
             >
               <div className="hamburger-icon"></div>
@@ -41,6 +42,7 @@ class Header extends Component {
                 <li className="nav-item">
                   <Link
                     onClick={this.handleClick.bind(this)}
+                    onKeyDown={this.handleClick.bind(this)}
                     className="nav-link"
                     to="/"
                   >
@@ -50,6 +52,7 @@ class Header extends Component {
                 <li className="nav-item">
                   <Link
                     onClick={this.handleClick.bind(this)}
+                    onKeyDown={this.handleClick.bind(this)}
                     className="nav-link"
                     to="/meist/"
                   >
@@ -59,6 +62,7 @@ class Header extends Component {
                 <li className="nav-item">
                   <Link
                     onClick={this.handleClick.bind(this)}
+                    onKeyDown={this.handleClick.bind(this)}
                     className="nav-link"
                     to="/hinnakiri/"
                   >
@@ -68,6 +72,7 @@ class Header extends Component {
                 <li className="nav-item">
                   <Link
                     onClick={this.handleClick.bind(this)}
+                    onKeyDown={this.handleClick.bind(this)}
                     className="nav-link"
                     to="/kontakt/"
                   >
