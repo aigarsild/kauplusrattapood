@@ -8,6 +8,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { Helmet } from "react-helmet"
+import favicon from "./../images/favicon.ico"
 
 import Header from "./header"
 import "./layout.scss"
@@ -27,6 +29,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
+      <Helmet><link rel="icon" href={favicon} /></Helmet>
       <div
         style={{
           margin: `0 auto`,
