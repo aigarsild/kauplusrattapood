@@ -7,6 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
+import img from "./../images/bike.jpg"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -26,6 +27,7 @@ function SEO({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+  const ogImgUrl = img;
 
   return (
     <Helmet
@@ -47,6 +49,10 @@ function SEO({ description, lang, meta, title }) {
           property: `og:description`,
           content: metaDescription,
         },
+      {
+        property: `og:image`,
+        content: ogImgUrl
+      },
         {
           property: `og:type`,
           content: `website`,
