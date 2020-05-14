@@ -12,9 +12,9 @@ module.exports = {
       options: {
         host: 'https://kauplusrattapood.ee/',
         sitemap: 'https://kauplusrattapood.ee/sitemap.xml',
-        policy: [{ userAgent: '*', allow: '/' }]
-      }
-    }
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
