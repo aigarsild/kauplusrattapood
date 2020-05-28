@@ -22,7 +22,7 @@ class Header extends Component {
   render() {
     return (
 
-      <header className="row light-section navbar-light sticky-top">
+      <header className="light-section navbar-light sticky-top">
         <div className="container">
           <div className="row">
             <Link to="/" className="col navbar-brand pb-0 font-weight-bold">
@@ -88,6 +88,7 @@ class Header extends Component {
         <MessengerCustomerChat
       pageId="108055020870134"
       appId="270798634115271"
+      themeColor="#343a40"
     />
       </header>
 
