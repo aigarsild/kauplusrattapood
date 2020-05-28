@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { Component } from "react"
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 
 class Header extends Component {
@@ -83,6 +84,11 @@ class Header extends Component {
             </nav>
           </div>
         </div>
+
+        <MessengerCustomerChat
+      pageId="108055020870134"
+      appId="270798634115271"
+    />
       </header>
 
     )
