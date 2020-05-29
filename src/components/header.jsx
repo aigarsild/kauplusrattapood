@@ -65,6 +65,16 @@ class Header extends Component {
                     onClick={this.handleClick.bind(this)}
                     onKeyDown={this.handleClick.bind(this)}
                     className="nav-link"
+                    to="/jalgratta-hooldus/"
+                  >
+                    Hooldus
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    onClick={this.handleClick.bind(this)}
+                    onKeyDown={this.handleClick.bind(this)}
+                    className="nav-link"
                     to="/hinnakiri/"
                   >
                     Hinnakiri

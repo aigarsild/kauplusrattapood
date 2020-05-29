@@ -15,7 +15,7 @@ html {
 }
 
 header {
-  background-color: #a1b3cc3d;
+  background-color: #ffffff42;
 }
 
 input, textarea {
@@ -63,6 +63,7 @@ body a {
 
 .nav-wrap {
   display: none;
+  font-weight: bold;
 
   @include media-breakpoint-up(lg) {
     display: block;
@@ -113,7 +114,7 @@ body a {
 
 .img-wrap {
   width: 40%;
-  height: 40%;
+  height: 60%;
   overflow: hidden;
   background-color: #b1d0ff;
   img {

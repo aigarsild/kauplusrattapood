@@ -35,6 +35,8 @@ module.exports = {
     },
     `gatsby-plugin-sass`,
     `bootstrap`,
+    `gatsby-plugin-scroll-reveal`,
+    `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
