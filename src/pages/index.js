@@ -24,7 +24,7 @@ class Home extends Component {
           />
           <section className="row slider d-flex align-content-center flex-wrap min-vh-100">
             <h1 className="display-4 text-center w-100 font-weight-bold mb-4">
-              Mobiilne ratta hooldus ja parandus
+              Mobiilne rattahooldus ja parandus
             </h1>
             <div className="lead text-center w-100">
               Aja saab kokkuleppida kirjutades
