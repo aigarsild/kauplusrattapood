@@ -19,7 +19,7 @@ class Home extends Component {
             <textarea name="message"></textarea>
           </form>
           <SEO
-            title="Ratta hooldus ja parandus"
+            title="Rattahooldus ja parandus"
             description="Kauplus rattapood parandab ja hooldab rattaid, ratta hoolduse hinnakiri"
           />
           <section className="row slider d-flex align-content-center flex-wrap min-vh-100">
