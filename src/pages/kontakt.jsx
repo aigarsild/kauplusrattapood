@@ -16,7 +16,7 @@ class Kontakt extends Component {
                                 <h1 className="display-4 text-center w-100 font-weight-bold mb-5">Kontakt</h1>
                                 <p><a href="mailto:laagri.rattahooldus@gmail.com?Subject=Rattahooldus%20lehelt" target="_top"> laagri.rattahooldus@gmail.com </a></p>
                                 <p><a href="tel:+37256861763">56 86 17 63</a></p>
-                                <p>Veskitammi 15, Laagri</p>
+                                <p>Vae 2 - 16, Laagri</p>
                                 <p className="font-weight-bold">Oleme tegevuses:</p>
                                 <p>E-R  10 - 19</p>
                                 <p>L    10 - 17 </p>

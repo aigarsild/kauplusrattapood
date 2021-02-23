@@ -40,6 +40,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Kauplusrattapood
+          <a className="insta" href="https://www.instagram.com/kauplusrattapood/" target="_blank">Instagram</a>
         </footer>
       </div>
     </>
