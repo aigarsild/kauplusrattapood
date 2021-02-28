@@ -14,6 +14,9 @@ class Header extends Component {
   }
 
   handleClick(e) {
+
+    console.log(e);
+
     this.setState({
       showNav: !this.state.showNav,
     })
@@ -42,8 +45,7 @@ class Header extends Component {
               <ul className="nav justify-content-end">
                 <li className="nav-item">
                   <Link
-                    onClick={this.handleClick.bind(this)}
-                    onKeyDown={this.handleClick.bind(this)}
+                    
                     className="nav-link"
                     to="/"
                   >
@@ -52,18 +54,17 @@ class Header extends Component {
                 </li>
                 <li className="nav-item">
                   <Link
-                    onClick={this.handleClick.bind(this)}
-                    onKeyDown={this.handleClick.bind(this)}
+                    
                     className="nav-link"
                     to="/meist/"
                   >
                     Meist
                   </Link>
                 </li>
+                
                 <li className="nav-item">
                   <Link
-                    onClick={this.handleClick.bind(this)}
-                    onKeyDown={this.handleClick.bind(this)}
+                    
                     className="nav-link"
                     to="/jalgratta-hooldus/"
                   >
@@ -72,8 +73,7 @@ class Header extends Component {
                 </li>
                 <li className="nav-item">
                   <Link
-                    onClick={this.handleClick.bind(this)}
-                    onKeyDown={this.handleClick.bind(this)}
+                    
                     className="nav-link"
                     to="/hinnakiri/"
                   >
@@ -82,8 +82,7 @@ class Header extends Component {
                 </li>
                 <li className="nav-item">
                   <Link
-                    onClick={this.handleClick.bind(this)}
-                    onKeyDown={this.handleClick.bind(this)}
+                    
                     className="nav-link"
                     to="/kontakt/"
                   >

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import lihthooldusImg from '../images/bike.jpg';
-import taishooldusImg from '../images/bike2.jpg';
-import toodImg from '../images/tools.jpg';
-import wheelImg from '../images/blurredwheel.jpg';
+import lihthooldusImg from '../images/lihthooldus.png';
+import taishooldusImg from '../images/taishooldus.png';
+import toodImg from '../images/ylejaanud.png';
+import wheelImg from '../images/kysimused.png';
 
 import Form from './formComponent';
 
@@ -52,7 +52,7 @@ class pricesComponent extends Component {
                     </div>
                 }
 
-                <h2 className="display-4 text-center w-100 font-weight-bold mb-5">Hinnakiri</h2>
+                <h2 className="display-4 text-center w-100 font-weight-bold mb-5 mt-5">Hinnakiri</h2>
                 <div className="row justify-content-center">
                     <div data-sal="zoom-in"
                         data-sal-delay="100"

@@ -13,7 +13,7 @@ class Hooldus extends Component {
           <div className="container prices-section">
             <div className="row">
               <div className="lead w-100">
-                <h1 className="display-4 text-center w-100 font-weight-bold mb-5">Jalgratta hooldus</h1>
+                <h1 className="display-4 text-center w-100 font-weight-bold mb-5 mt-5">Jalgratta hooldus</h1>
 
                 <h2 className="display-5 w-100 font-weight-bold mb-5">Meie hooldame sinu ratast - tasuta jalgratta transport töökotta ja tagasi</h2>
                 

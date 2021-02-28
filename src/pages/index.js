@@ -23,11 +23,12 @@ class Home extends Component {
             description="Kauplus rattapood parandab ja hooldab rattaid, ratta hoolduse hinnakiri"
           />
           <section className="row slider d-flex align-content-center flex-wrap min-vh-100">
+            
             <h1 className="display-4 text-center w-100 font-weight-bold mb-4">
-              Mobiilne rattahooldus ja parandus
+              Jalgrattahooldus ja parandus Laagris, Vae 2
             </h1>
             <div className="lead text-center w-100">
-              Aja saab kokkuleppida kirjutades
+              Enne külastust helistage <a href="tel:+37256861763">56 86 17 63</a> või kirjutage
               <a
                 href="mailto:laagri.rattahooldus@gmail.com?Subject=Rattahooldus%20lehelt"
                 target="_top"
@@ -35,17 +36,7 @@ class Home extends Component {
                 {" "}
                 laagri.rattahooldus@gmail.com{" "}
               </a>
-              või kirjutades{" "}
-              <a
-                onKeyUp={() => scrollTo("#hinnakiri")}
-                onClick={() => scrollTo("#hinnakiri")}
-                href="#hinnakiri"
-              >
-                hinnakirja all
-              </a>
-              <p className="lead text-center w-100">
-                Avame varsti füüsilise poe Laagris.
-              </p>
+              <p></p>
             </div>
 
             <div className="w-100 text-center">
@@ -58,6 +49,7 @@ class Home extends Component {
                 Vaata rattahooldus hinnakirja
               </a>
             </div>
+            
           </section>
 
           <section className="prices-section light-section d-flex align-content-center flex-wrap min-vh-100 row">

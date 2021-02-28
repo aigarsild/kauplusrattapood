@@ -11,7 +11,7 @@ class Meist extends Component {
         <SEO title="Jalgratta poe meeskond" description="Jalgratta poe meeskonnnast ja meie tegemistest" />
         <section className="light-section d-flex align-content-center flex-wrap min-vh-100">
           <div className="container">
-            <h1 className="display-4 text-center w-100 font-weight-bold mb-5">Meist</h1>
+            <h1 className="display-4 text-center w-100 font-weight-bold mb-5 mt-5">Meist</h1>
             <div className="row">
               <div className="col-md rounded mr-4 float-left"><img src={wheelImg} className="rounded shadow img-fluid" alt="jalgratas"></img></div>
               <div className="col-md lead w-100">

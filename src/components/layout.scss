@@ -46,7 +46,7 @@ input, textarea {
 
   &::before {
     content: "";
-    background-color: #b1d0ff;
+    background-color: #fff;
     opacity: 0.6;
     top: 0;
     left: 0;
@@ -58,12 +58,22 @@ input, textarea {
 }
 
 body a {
-  color: #000;
+  color: #3246FF;
+  text-decoration: underline;
 }
 
 .nav-wrap {
   display: none;
   font-weight: bold;
+
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #3246FF;
+  }
 
   @include media-breakpoint-up(lg) {
     display: block;
@@ -71,7 +81,7 @@ body a {
 }
 .prices-section {
   .card {
-    background-color: #b1d0ff;
+    background-color: #fff;
     height: 100%;
   
     &-body {
@@ -90,7 +100,7 @@ body a {
     }
   
     img {
-      opacity: 0.5;
+      opacity: 0.9;
     }
   }
 }
@@ -253,6 +263,14 @@ body a {
   }
 }
 
+.btn {
+  text-decoration: none;
+}
+
 .insta {
   float: right;
+}
+
+iframe {
+  border: none;
 }
