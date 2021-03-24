@@ -107,7 +107,7 @@ class pricesComponent extends Component {
                                 <h2 className="card-title font-weight-bold">Ülejäänud tööd</h2>
                                 <div className="card-text font-weight-light">
                                     <ul className="list-unstyled">
-                                        <li className="mb-2">Rattapesu 15 - 25€</li>
+                                        
                                         <li className="mb-2">Ekspress hooldus 95€</li>
                                         <li className="mb-2">Töökoja töötund 35€</li>
                                         <li className="mb-2">Väiksemad tööd nagu sisekummi vahetus jms lisandub väljasõidu hind 10€</li>
