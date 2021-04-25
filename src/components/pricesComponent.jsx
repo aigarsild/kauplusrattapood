@@ -67,8 +67,7 @@ class pricesComponent extends Component {
                                         <span className="font-weight-bold mb-2">Lihthooldus sisaldab:</span>
                                         <li className="mb-2">
                                             käikude, koonuste, pidurite, kaelakausside reguleerimine, jooksude rihtimine, keti õlitamine, kummide pumpamine
-                                       </li>
-                                        <li className="mb-2">lihtsamate osade vahetamine (kett, piduriklotsid, tross jne)</li>
+                                       </li>                                    
                                         <li className="mb-2">edasise hoolduse soovitused</li>
                                         <li className="mb-2">hind ei sisalda varuosi</li>
                                     </ul>
