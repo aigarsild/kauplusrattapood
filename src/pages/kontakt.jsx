@@ -19,8 +19,7 @@ class Kontakt extends Component {
                                 <p><a href="tel:+37256861763">56 86 17 63</a></p>
                                 <p>Vae 2, Laagri</p>
                                 <p className="font-weight-bold">Oleme tegevuses:</p>
-                                <p>E-R  12 - 19</p>
-                                <p>L,P  12 - 15 </p>
+                                <p>Iga päev, aga me ei pruugi alati olla töökojas. Lepime enne kokkusaamist aja kokku.</p>
 
                                 </div>
                                 

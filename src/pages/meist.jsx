@@ -21,8 +21,9 @@ class Meist extends Component {
                 <p>Meie mehaanik on rattapoe süda. Tema kogemuste pagasi tõttu suudame kiirelt kaardistada sinu ratta vajadused ja anda talle tagasi tema elu parima vormi. </p>
                 <p className="mb-5">Hoolitseme su ratta eest, et su ratas saaks sinu eest hoolitseda.</p>
 
-                <h2 className="display-5 w-100 font-weight-bold mb-5">Oleme mobiilsed ja kontaktivabad</h2>
-                <p>Avame varsti füüsilise töökoja Laagris.</p>
+                <h2 className="display-5 w-100 font-weight-bold mb-5">Meie töökoda asub Laagris, Vae 2</h2>
+                <p>Sissepääs on peauksest ja asume ruum 16.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!3m2!1sen!2see!4v1619338030397!5m2!1sen!2see!6m8!1m7!1sLQKqaFHtV1YS0m446FrBFw!2m2!1d59.35149433713514!2d24.61028993865215!3f281.89114672038!4f2.1778810483039877!5f0.7820865974627469" width="600" height="450"></iframe>
                 <p className="mb-5">
                   Üleandmine võib olla ka täiesti kontaktivaba. Näiteks: lepime kellaaja kokku ja jäta oma ratas maja ette või värava taha. Peale rattahooldust lepime aja kokku ja toome hooldatud jalgratta kokku lepitud kohta tagasi.
                             </p>

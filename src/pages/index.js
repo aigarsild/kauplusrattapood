@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import scrollTo from "gatsby-plugin-smoothscroll"
 import Prices from "../components/pricesComponent"
+import { Link } from "gatsby"
 
 class Home extends Component {
   render() {
@@ -28,14 +29,20 @@ class Home extends Component {
               Jalgrattahooldus ja parandus Laagris, Vae 2
             </h1>
             <div className="lead text-center w-100">
-              Enne külastust helistage <a href="tel:+37256861763">56 86 17 63</a> või kirjutage
+              Enne külastust helistage <a href="tel:+37256861763">56 86 17 63</a>, kirjutage
               <a
                 href="mailto:laagri.rattahooldus@gmail.com?Subject=Rattahooldus%20lehelt"
                 target="_top"
               >
                 {" "}
                 laagri.rattahooldus@gmail.com{" "}
-              </a>
+              </a> või saatke kiri <Link
+                    
+                    className="nav-link"
+                    to="/kontakt/"
+                  >
+                    kontakti vormi
+                  </Link>
               <p></p>
             </div>
 
@@ -65,7 +72,7 @@ class Home extends Component {
                         data-sal-easing="ease"
                         data-sal-duration="500" className="row">
                 <h2 className="slogan display-5 font-weight-bold text-center w-100">
-                  Taastame ka ise rattaid müügiks. Varsti saab ka vaatama tulla.
+                  Taastame jalgrattaid. Kui teil on mõni huvitav jalgratas, mida taastada võtke meiege ühendust
                 </h2>
                 <div className="lead text-center w-100">
                   Lisainfo saamiseks kirjuta
@@ -76,7 +83,13 @@ class Home extends Component {
                     {" "}
                     laagri.rattahooldus@gmail.com{" "}
                   </a>
-                  või helista <a href="tel:+37256861763">56 86 17 63</a>
+                  , helista <a href="tel:+37256861763">56 86 17 63</a> või saatke kiri <Link
+                    
+                    className="nav-link"
+                    to="/kontakt/"
+                  >
+                    kontakti vormi
+                  </Link>
                 </div>
               </div>
             </div>

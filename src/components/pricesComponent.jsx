@@ -59,7 +59,7 @@ class pricesComponent extends Component {
                         data-sal-easing="ease"
                         data-sal-duration="500" className="mb-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
                         <div className="card border-0 shadow">
-                            <img src={lihthooldusImg} className="card-img-top" alt="" />
+                            <img src={lihthooldusImg} className="card-img-top" alt="lihthooldus" />
                             <div className="card-body">
                                 <h2 className="card-title font-weight-bold">Lihthooldus 35€</h2>
                                 <div className="card-text font-weight-light">
@@ -82,7 +82,7 @@ class pricesComponent extends Component {
                         data-sal-easing="ease"
                         data-sal-duration="500" className="mb-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
                         <div className="card border-0 shadow">
-                            <img src={taishooldusImg} className="card-img-top" alt="" />
+                            <img src={taishooldusImg} className="card-img-top" alt="täishooldus" />
                             <div className="card-body">
                                 <h2 className="card-title font-weight-bold">Täishooldus 75€</h2>
                                 <div className="card-text font-weight-light">
@@ -102,7 +102,7 @@ class pricesComponent extends Component {
                         data-sal-easing="ease"
                         data-sal-duration="500" className="mb-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
                         <div className="card border-0 shadow">
-                            <img src={toodImg} className="card-img-top" alt="" />
+                            <img src={toodImg} className="card-img-top" alt="jalgratta hooldus" />
                             <div className="card-body">
                                 <h2 className="card-title font-weight-bold">Ülejäänud tööd</h2>
                                 <div className="card-text font-weight-light">
@@ -110,7 +110,7 @@ class pricesComponent extends Component {
                                         
                                         <li className="mb-2">Ekspress hooldus 95€</li>
                                         <li className="mb-2">Töökoja töötund 35€</li>
-                                        <li className="mb-2">Väiksemad tööd nagu sisekummi vahetus jms lisandub väljasõidu hind 10€</li>
+            
                                     </ul>
                                 </div>
                                 <p data-btn="Ülejäänud tööd" onClick={this.handleClick.bind(this)} onKeyDown={this.handleClick.bind(this)} className="shadow btn btn-dark font-weight-bold pt-3 pb-3 pl-5 pr-5">Telli pakett</p>
@@ -122,7 +122,7 @@ class pricesComponent extends Component {
                         data-sal-easing="ease"
                         data-sal-duration="500" className="mb-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
                         <div className="card border-0 shadow">
-                            <img src={wheelImg} className="card-img-top" alt="" />
+                            <img src={wheelImg} className="card-img-top" alt="rattahooldus" />
                             <div className="card-body">
                                 <h2 className="card-title font-weight-bold">Ei tea mis rattal vaja teha?</h2>
                                 <div className="card-text font-weight-light">

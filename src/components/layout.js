@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Kauplusrattapood
+          © {new Date().getFullYear()}, Kauplusrattapood - <a href="https://kauplusrattapood.ee/">jalgratta hooldus</a> 
           <a className="insta" href="https://www.instagram.com/kauplusrattapood/" target="_blank">Instagram</a>
         </footer>
       </div>

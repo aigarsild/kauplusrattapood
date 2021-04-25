@@ -15,13 +15,13 @@ class Hooldus extends Component {
               <div className="lead w-100">
                 <h1 className="display-4 text-center w-100 font-weight-bold mb-5 mt-5">Jalgratta hooldus</h1>
 
-                <h2 className="display-5 w-100 font-weight-bold mb-5">Meie hooldame sinu ratast - tasuta jalgratta transport töökotta ja tagasi</h2>
+                <h2 className="display-5 w-100 text-center font-weight-bold mb-5">Meie hooldame sinu ratast</h2>
                 
                 <p>Jalgratas on igapäevane asi. Nii nagu hooldad ennast ja kõiki asju, mida kasutad iga päev, tuleb hooldada ka ratast. Meie rattapood hooldab meeleldi sinu ratast.</p>
                 <p className="mb-5">Kui hea on haarata ratas, mis on suurepärases korras ja lihtsalt sõita. Pidur pidurdab hästi, ratas ei logise ega kriuksu.</p>
 
-                <h2 className="display-5 text-center w-100 font-weight-bold mb-5">Lihthoolduse ja täishoolduse korral on tasuta transport</h2>
-                <p className="mb-5">Tellides Lihthoolduse või täishoolduse on jalgratta transport tasuta Tallinna ja Saue valla piirdes</p>
+                <h2 className="display-5 text-center w-100 font-weight-bold mb-5">Jalgratta hooldus on avatud</h2>
+                <p className="mb-5">Pakume lihthooldust ja täishooldust. Hoolduse käigus vaatame ratta üle ja teostme vajaminevad tööd. Vahetame ära kulunud varuosad. Varuosade hind lisandub hoolduse hinnale.</p>
                 
                 <div className="w-100 text-center">
               <a
