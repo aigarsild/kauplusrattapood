@@ -8,7 +8,7 @@ class Hooldus extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="Jalgratta hooldus" description="Mobiilne jalgratta hooldus, tuleme kohale ja hooldame teie ratta" />
+        <SEO title="Jalgratta hooldus" description="Jalgratta hooldus, pakume lihthooldust ja täishooldust" />
         <section className="light-section d-flex align-content-center flex-wrap min-vh-100">
           <div className="container prices-section">
             <div className="row">
